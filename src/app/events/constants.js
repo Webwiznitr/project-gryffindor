@@ -211,6 +211,56 @@ const mainEvents = [
     ],
   },
 
+  {
+    index: 9,
+    eventId: 66,
+    image: "/Images/Rap Battle.png",
+    content:
+      "Rap battle is an event to find, recognize and promote the rap artists and the rap culture amongst the youth. It will serve as a platform for artists to express and flaunt their writing and rapping skills",
+    eventName: "NU Rap Battle | Drill N Bass",
+    Registerurl: "#",
+    rules: [
+      "Qualifiers:",
+      "Each rapper will be allowed a maximum slot of 3 minutes to perform either an original or a cover, where originals will be given more preference.",
+      "Those performing a cover should bring their own beats.",
+      "Rappers are also allowed to play an instrument during their performance. One must bring their own instrument.",
+      "Eliminator:",
+      "Rappers will be set up into brackets randomly and will be pit against competitors for 5-minute rounds.",
+      "Each rapper will be given 5 words and 10 minutes to write an original verse.",
+      "If agreed to by both the rappers, the bracket will be turned into a battle rap.",
+      "All scoring decisions will be made by the judges, and their decision will be deemed final.",
+    ],
+  },
+
+  {
+    index: 10,
+    eventId: 67,
+    image: "/Images/beatbox.png",
+    content:
+      "Unleash the power of rhythm and creativity at the Beatbox Battle! Watch skilled vocalists transform their voices into dynamic beats, basslines, and sound effects in thrilling one-on-one showdowns. This electrifying event brings together innovation, passion, and the heart of hip-hop culture. Join us for an unforgettable celebration of sound and artistry!",
+    eventName: "BeatBox Battle | Drill N Bass",
+    Registerurl: "#",
+    rules: [],
+  },
+
+  {
+    index: 11,
+    eventId: 68,
+    image: "/Images/Artboard 1.png",
+    content:
+      "This competition has two exciting levels! In the first, participants upload a PDF showcasing their original content. The top talents will move on to the grand stage for a live performance, where they’ll compete for exclusive goodies awarded to the top 3. To make it even more special, a renowned poet will judge the finalists. ",
+    eventName: "Expecto Poetronum | Kalaam ",
+    rules: [
+      "There will be 2 rounds. The poem can be in Hindi or English.",
+      "In the first round, participants need to upload their original content in a PDF/DOC format. The writing should be in the exact dialect of the language (Hindi/English).",
+      "In the second round, the top performers will be invited to perform on stage on our campus. The number of performers to be shortlisted is at the discretion of the judge strictly.",
+      "The top 3 performers will be given goodies.",
+      "Judges' decision shall be final.",
+      "Plagiarism is strictly prohibited and will result in disqualification.",
+    ],
+    Registerurl: "#",
+  },
+
   // {
   //   index: 9,
   //   eventId: 66,
@@ -1067,6 +1117,17 @@ const workshops = [
     ],
     Registerurl: "#",
   },
+
+  {
+    index: 4,
+    eventId: 94,
+    image: "/Images/Palette (1).png",
+    content:
+      "Palette Fusion is a three-day celebration of creativity and innovation! Participate in Art Date by painting portraits face-to-face, unleash your imagination with finger dab painting in Finger Dab, and craft wonders from waste in Trash Treasure. Whether you're a pro or a beginner, Palette Fusion offers a fun-filled artistic experience for everyone. Join us!",
+    eventName: "Palette Fusion| Chitraang",
+    rules: [],
+    Registerurl: "#",
+  },
   // {
   //   index: 2,
   //   eventId: 90,
@@ -1348,6 +1409,16 @@ const funevents = [
     Registerurl: "#",
     rules: ["General decorum and discipline is needed to be maintained."],
   },
+  {
+    index: 5,
+    eventId: 84,
+    image: "/Images/Riddle (1).png",
+    content:
+      "Engaging and interactive treasure hunt that encourages participation, promotes the Home and Hope Exhibition",
+    eventName: "Riddles of Hope | Rotaract",
+    Registerurl: "#",
+    rules: ["General decorum and discipline is needed to be maintained."],
+  },
 
   // {
   //   index: 4,
@@ -1523,7 +1594,46 @@ const funevents = [
   // },
 ];
 
-export { mainEvents, flagships, workshops, guestLectures, funevents };
+const clubevents = [
+  {
+    index: 0,
+    eventId: 121,
+    image: "/Images/Varnam (1).png",
+    content:
+      "Join us for an enchanting 30-minute classical dance showcase at the SAC Stairs , where the mesmerizing magic of Indian classical dance forms will captivate your senses. The performance will feature graceful movements, energetic beats, and engaging rhythms, providing a refreshing escape from the ordinary. Let the vibrant performances transport you into a world of tradition and art, as each dance tells a story through intricate footwork, expressive gestures, and soulful music. A perfect opportunity to unwind, reconnect, and enjoy the timeless beauty of India's rich cultural heritage.",
+    eventName: "Varnaam 2.0  | Nrityunjaya",
+    Registerurl: "#",
+  },
+
+  {
+    index: 1,
+    eventId: 122,
+    image: "/Images/Kaarvaan.png",
+    content:
+      "Join Kalaam for a poetic extravaganza on the final day of Nitrutsav! Featuring captivating performances in Hindi, Urdu, and English, this two-hour event explores diverse themes with soulful expression. Guided by our talented hosts, it promises a vibrant celebration of creativity, language, and artistry. Don’t miss this unforgettable journey of words and emotions!",
+    eventName: "Karvaan 4.0 | Kalaam",
+    Registerurl: "#",
+  },
+
+  {
+    index: 2,
+    eventId: 123,
+    image: "/Images/dnb fusion (1).png",
+    content:
+      "Drill N Bass is back for another earth shaking and electrifying DJ night and a band performance which is guaranteed to make your night a million times more exciting. The performance will include a live music performed by our band members followed by an energetic DJ show, which means there’s something for everyone to enjoy.",
+    eventName: "Fusion | DnB",
+    Registerurl: "#",
+  },
+];
+
+export {
+  mainEvents,
+  flagships,
+  workshops,
+  guestLectures,
+  funevents,
+  clubevents,
+};
 // export const events = {
 //   MAIN: [
 //     {

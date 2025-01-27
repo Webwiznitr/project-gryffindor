@@ -103,7 +103,7 @@ const ParallaxScene = () => {
           </p>
           <div className="flex items-center flex-col md:flex-row justify-center space-x-4 font-Cattedrale lg:gap-10 gap-3 md:text-2xl lg:mt-5 mt-8">
             <a
-              href="/docs/EB.pdf"
+              href="/docs/EB Final.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between bg-transparent border-[2px] border-black text-black font-semibold lg:px-4 lg:py-2 px-4 rounded-full shadow-md hover:shadow-lg transform transition-transform duration-200 hover:scale-105"
